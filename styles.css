@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "work sans", sans-serif;
+}
+
+/* Navigation bar and top section */
+
+.nav-container {
+    background: url(images/hololive-bg.jpg_large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 200px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0.2rem;
+    margin: 0;
+    padding: 2rem 0 40em 0;
+}
+
+.nav-item {
+    margin-right: 2rem;
+    list-style: none;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item:first-child {
+    pointer-events: none;
+    margin-right: auto; 
+    margin-left: 2rem;
+}
+
+/* Vtuber Audition section */
+
+.audition-container {
+    height: 600px;
+    background-color: #00bbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audition-text {
+    color: #fff;
+    font-size: 20px;
+    width: 550px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.audition-text h1 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.audition-btn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-style: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    border: 3px solid #fff;
+    background: none;
+    cursor: pointer;
+}
+
+/* VTuber Production section */
+
+.production-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.production-container img {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.production-text {
+    color: #000;
+    font-size: 20px;
+    width: 550px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.production-text h1 {
+    color: #00bbf9;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.production-btn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background: #00bbf9;
+    cursor: pointer;
+}
+
+.production-text, h1, p, button {
+    margin-left: 140px;
+}
+
+/* Associated Groups section */
+
+.associated-container {
+    background-color: #6c757d;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.associated-text h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.associated-text p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.associated-img {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.associated-img img{
+    width: 400px;
+    cursor: pointer;
+}
+
+/* Official Accounts section */
+
+.official-container {
+    height: 45em;
+    text-align: center;
+}
+
+.official-text h1 {
+    color: #00bbf9;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.official-text p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.official-img {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.official-img img{  
+    width: 120px;
+}
+
+.official-bottom {
+    margin-top: 50px;
+}
+
+.official-bottom h1 {
+    color: #00bbf9;
+    font-size: 44px;
+    text-align: center;
+}
+
+.official-bottom img {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* Hololy section */
+
+.hololy-container {
+    background: url(images/hololy-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hololy-desc {
+    font-size: 40px;
+    width: 550px;
+}
+
+.hololy-text {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 400px;
+}
+
+.hololy-btn1 {
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+.hololy-btn2 {
+    margin-left: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* Footer section */
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img {
+    align-self: center;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+}
+
+.footer-links a {
+    color: #47c9f0;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px;
+} 
+
+.footer-cover hr {
+    margin-bottom: 10px;
+    color: #f8f9fa;
+    text-align: center;
+
+}
+
+
