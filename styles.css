@@ -33,8 +33,9 @@
 }
 
 .nav-item a {
-    color: black;
+    color: #4E4E4E;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .nav-item:first-child {
