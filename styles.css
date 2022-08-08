@@ -185,6 +185,7 @@
 
 .official-img img{  
     width: 120px;
+    cursor: pointer;
 }
 
 .official-bottom {
@@ -200,6 +201,7 @@
 .official-bottom img {
     margin-left: 150px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 /* Hololy section */
